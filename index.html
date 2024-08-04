@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+         <div class="start-game-btn">
+            <span>Start</span>
+         </div> 
+        <!-- ************************* -->
+        <div class="info_container">
+            <div class="name">
+                Hello : <span>Ahmed</span></div>
+            <div class="tries">
+                Wrong Tries: <span>0</span>
+            </div>
+        </div>
+        <!-- ************************** -->
+        <div class="blocks_container">
+            <div class="game_block" data-set="abotrika">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/abotrika.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="abotrika">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/abotrika.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="toris">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/Ronaldo.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="toris">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/Ronaldo.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="messi">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/messi.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="messi">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/messi.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="nimar">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/nimar.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="nimar">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/nimar.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="embabe">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/embabe.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="embabe">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/embabe.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="levandoski">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/levandoski.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="levandoski">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/levandoski.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="ronaldo">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/ronaldo2.jpeg">
+                </div>
+            </div>
+            <div class="game_block" data-set="ronaldo">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/ronaldo2.jpeg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <!-- ************************** -->
+            <div class="game_block" data-set="benzima">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/benzema.jpg">
+                </div>
+            </div>
+            <div class="game_block" data-set="benzima">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/benzema.jpg">
+                </div>
+            </div>
+            <!-- ******************************** -->
+            <div class="game_block" data-set="bele">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/blengham.webp">
+                </div>
+            </div>
+            <div class="game_block" data-set="bele">
+                <div class="front face">
+                    <img src="photo/qmark.jpeg" alt="">
+                </div>
+                <div class="back face">
+                    <img src="photo/blengham.webp">
+                </div>
+            </div>
+        </div>
+        <audio id="start" src="./audio/start"></audio>
+        <audio id="wrong" src="./audio/error-4-199275.mp3"></audio>
+        <audio id="success" src="./audio/rightanswer-95219.mp3" preload="auto"></audio>
+        
+        <script src="main.js"></script>
+</body>
+</html>
